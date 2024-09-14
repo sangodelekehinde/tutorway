@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body class="font-Montserrat">
+    <form>
+      <div
+        class="wrapper bg-gradient-to-r from-[#0063ff] to-[#8298ba79] flex justify-center items-center bg-[#0063ff] h-[100vh]"
+      >
+        <div
+          class="h-[95vh] w-[90vw] md:w-[30vw] pb-7 pt-8 pl-4 pr-4 bg-white rounded-xl flex flex-col"
+        >
+          <div class="heading">
+            <h2
+              class="text-xl font-Caveat font-semibold text-center pb-1 md:text-2xl md:font-semibold"
+            >
+              Login
+            </h2>
+          </div>
+
+          <div class="name p-4">
+            <fieldset
+              class="border border-[#cfcfcf] pl-[17px] md:pl-[10px] rounded-xl"
+            >
+              <legend>
+                <p class="md:font-medium md:text-xs">Name</p>
+              </legend>
+
+              <input
+                class="border-0 outline-none text-sm pb-3 md:pb-3 md:text-xs md:font-light"
+                type="text"
+                placeholder=" enter your name"
+              />
+            </fieldset>
+          </div>
+
+          <div class="Email p-4">
+            <fieldset
+              class="border border-[#cfcfcf] pl-[17px] md:pl-[10px] rounded-xl"
+            >
+              <legend>
+                <p class="font-medium md:text-xs">Email</p>
+              </legend>
+              <input
+                class="border-0 outline-none text-sm pb-3 md:pb-3 md:text-xs md:font-light"
+                type="email"
+                placeholder="enter your email"
+              />
+            </fieldset>
+          </div>
+          <div class="Password p-4 mb-4">
+            <fieldset
+              class="border border-[#cfcfcf] pl-[17px] md:pl-[10px] rounded-xl"
+            >
+              <legend>
+                <p class="font-medium md:text-xs">Password</p>
+              </legend>
+              <input
+                class="border-0 outline-none text-sm pb-3 md:pb-3 md:text-xs md:font-light"
+                type="password"
+                placeholder="enter your password"
+              />
+            </fieldset>
+          </div>
+          <div
+            class="signupbtn bg-[#0063ff] md:p-4 w-70 md:h-7 md:rounded p-3 mx-4 flex justify-center items-center rounded-xl"
+          >
+            <button class="text-white md:text-xs md:semi-bold font-medium">
+              Login
+            </button>
+          </div>
+
+          <div class="alreadyhaveanaccount text-base flex justify-end pb-4">
+            <p class="text-xs pr-4 font-medium">create an account</p>
+          </div>
+
+          <div
+            class="socials flex flex-col text-center justify-center gap-3 md:gap-3"
+          >
+            <p>OR</p>
+
+            <div
+              class="goggle flex gap-5 justify-center bg-black p-3 md:p-2 rounded-3xl"
+            >
+              <img src="/src/login/socials/search.png" alt="" width="5%" />
+              <p class="text-xs text-white">Login with Goggle</p>
+            </div>
+            <div
+              class="github flex gap-5 justify-center bg-black p-3 md:p-2 rounded-3xl"
+            >
+              <img src="/src/login/socials/github.png" alt="" width="5%" />
+              <p class="text-xs text-white">login with Github</p>
+            </div>
+            <div
+              class="x flex gap-5 justify-center bg-black p-3 md:p-2 rounded-3xl"
+            >
+              <img src="/src/login/socials/twitter.png" alt="" width="5%" />
+              <p class="text-xs text-white">login with twitter</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

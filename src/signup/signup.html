@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body>
+    <form>
+      <div
+        class="wrapper flex justify-center items-center bg-[#0063ff] h-[100vh]"
+      >
+        <div
+          class="h-[75vh] w-[90vw] md:w-[30vw] pb-7 pt-8 pl-4 pr-4 bg-white rounded-xl flex flex-col"
+        >
+          <div class="heading">
+            <h2
+              class="text-xl font-semibold text-center pb-1 md:text-sm md:font-semibold"
+            >
+              Create and account
+            </h2>
+          </div>
+
+          <div class="name p-4">
+            <fieldset class="border border-[#cfcfcf] pl-[20px] rounded-xl">
+              <legend class="">
+                <p class="md:font-medium md:text-sm">Name</p>
+              </legend>
+
+              <input
+                class="border-0 outline-none text-sm pb-3 md:pb-2 md:text-sm md:font-light"
+                type="text"
+                placeholder=" Enter your name"
+              />
+            </fieldset>
+          </div>
+
+          <div class="Email p-4">
+            <fieldset class="border border-[#cfcfcf] pl-[20px] rounded-xl">
+              <legend class="pl-">
+                <p class="font-medium md:text-sm">Email</p>
+              </legend>
+              <input
+                class="border-0 outline-none text-sm pb-3 md:pb-2 md:text-sm md:font-light"
+                type="email"
+                placeholder="Enter your email"
+              />
+            </fieldset>
+          </div>
+          <div class="Password p-4 mb-4">
+            <fieldset class="border border-[#cfcfcf] pl-[20px] rounded-xl">
+              <legend class="pl-">
+                <p class="font-medium md:text-sm">Password</p>
+              </legend>
+              <input
+                class="border-0 outline-none text-sm pb-3 md:pb-2 md:text-sm md:font-light"
+                type="password"
+                placeholder="Enter your password"
+              />
+            </fieldset>
+          </div>
+          <div
+            class="signupbtn bg-[#0063ff] w-70 md:p-2 md:rounded p-3 mx-4 mb-4 text-center rounded-xl"
+          >
+            <button class="text-white text-sm font-semibold">Sign up</button>
+          </div>
+
+          <div class="alreadyhaveanaccount text-center text-base">
+            <p class="text-sm">
+              Already have an account?
+              <a href="/src/login/login.html"
+                ><span class="text-[#0063ff]"> sign in </span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
